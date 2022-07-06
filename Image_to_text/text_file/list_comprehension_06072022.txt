@@ -1,0 +1,18 @@
+eee
+
+# Rewrite this as a list comprehension.
+# This isn't necessarily the best comprehension ever...
+# But it's a nice exercise on conditional expressions VS filtering.
+
+# Original data:
+# contains numbers, strings, and missing values :(
+percentages = [12, "23.5", None, 98.125, None, "73"]
+
+formatted_percentages = []
+for p in percentages:
+if p is not None:
+if isinstance(p, str):
+formatted_percentages.append(f"{float(p):.2f}%")
+else:
+formatted_percentages.append(f"{p:.2f}%")
+
