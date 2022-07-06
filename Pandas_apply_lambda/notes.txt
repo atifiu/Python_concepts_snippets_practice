@@ -1,0 +1,9 @@
+https://medium.com/towards-data-science/introduction-to-pandas-apply-applymap-and-map-5d3e044e93ff
+
+https://stackoverflow.com/questions/19798153/difference-between-map-applymap-and-apply-methods-in-pandas
+
+map: applied only on series and can be elemntwise only
+applymap: applied only on dataframe and elementwise only
+apply: both for series and dataframe and it will be on whole dataset and hence axis needs to be defined
+
+Summing up, apply works on a row / column basis of a DataFrame, applymap works element-wise on a DataFrame, and map works element-wise on a Series.

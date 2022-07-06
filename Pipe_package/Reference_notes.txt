@@ -1,0 +1,3 @@
+https://medium.com/towards-data-science/write-clean-python-code-using-pipes-1239a0f3abf5
+
+https://deepnote.com/workspace/pythonsnippets-5cbb3986-f851-42c9-8439-c843feee6bef/project/Codepractice-76e2df7a-4a6e-4112-9680-1feec18bdf23/%2FUsing_pipe__nb_29052022.ipynb

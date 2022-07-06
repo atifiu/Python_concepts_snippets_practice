@@ -1,0 +1,25 @@
+import pandas as pd
+
+worldbank_pop = pd.read_csv('./data/WorldBank_POP.csv')
+#print(worldbank_pop.head())
+
+print(worldbank_pop.loc[worldbank_pop['Country Code'] == 'IND'])
+worldbank_pop_india = worldbank_pop.loc[worldbank_pop['Country Code'] == 'IND']
+
+for idx, rows in worldbank_pop_india.iterrows():
+    print('------------------------------')
+    print(f"Index at :{idx}")
+    
+    print(f"Year:{rows['Year']}, Population: {rows['Pop']}")
+    print(rows[['Pop', 'Year']])
+    print('------------------------------')
+
+index_series_pair = [tup for tup in worldbank_pop_india.iterrows()]
+print(type(index_series_pair))
+#print(index_series_pair[0])
+idx, series = index_series_pair[0]
+print(idx)
+print(series)
+for idx, series in index_series_pair:
+    print(idx)
+    print(series)

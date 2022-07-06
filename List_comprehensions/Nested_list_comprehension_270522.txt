@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.22000.675]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Atif>python
+Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> data = [[7, 9 ,12],[1, 43], [1415, -25, 12]]
+>>> result = [num for sublist in data for num in sublist if num > 10]
+>>> print(result)
+[12, 43, 1415, 12]
+>>> data = [[7, 9 ,12],[1, 43], [1415, -25, 12]]
+>>> for num in data :
+...     for sublist in num :
+...     for sublist in num :
+  File "<stdin>", line 3
+    for sublist in num :
+    ^
+IndentationError: expected an indented block after 'for' statement on line 2
+>>>
+>>> for sublist in data:
+...     for num in sublist:
+...             if num > 10 :
+...                     result.append(num)
+...
+>>> print(result)
+[12, 43, 1415, 12, 12, 43, 1415, 12]
+>>> result = []
+>>> for sublist in data:
+...     for num in sublist:
+...             if num > 10 :
+...                     result.append(num)
+...
+>>> print(result)
+[12, 43, 1415, 12]
+>>>
