@@ -1,0 +1,8 @@
+output?
+
+>>> my_str = "False"
+>>> print(my_str. 2m)
+FALSE
+
+tring method
+

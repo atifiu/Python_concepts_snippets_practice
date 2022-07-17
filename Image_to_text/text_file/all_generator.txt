@@ -1,0 +1,9 @@
+eu ["Alice", "Bob", "Charles", "Diana"]
+if all(len(tested := name) > 5 for name in names):
+print("ALL names have length 5 or more.")
+else:
+
+print(f"The name {tested} is too short.")
+
+# The name Bob is too short.
+
