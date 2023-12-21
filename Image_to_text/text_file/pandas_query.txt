@@ -1,0 +1,36 @@
+>>>
+>>>
+
+>>>
+>>>
+
+0)
+
+import pandas as pd
+
+data = {"Names": ["Mike", "Rodrigo", "Sundeep"],
+
+"Jobs": ["Author", "Content Creator",
+
+"Author"],
+
+"Books": ["Python 101", "PyDon'ts", "Python re(gex)?"]}
+
+df = pd.DataFrame(data)
+
+df
+
+Names Jobs
+Mike Author
+
+1 Rodrigo Content Creator
+2 Sundeep Author
+
+Books
+
+Python 101
+PyDon'ts
+
+Python re(gex)?
+
+|
