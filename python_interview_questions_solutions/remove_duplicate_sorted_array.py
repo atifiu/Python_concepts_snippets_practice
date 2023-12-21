@@ -1,7 +1,6 @@
 ### Remove duplicate from sorted array/list
 
 def remove_duplicate_sorted_list(list1:list[int]) ->list[int]:
-    #for i in range(len(list1)):
     i = 0
     while i < len(list1):
         print(list1[i])
