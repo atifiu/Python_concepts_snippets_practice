@@ -1,4 +1,4 @@
-## Interview question: you have two strings and have to find if they are same and you are allowed to make one edit
+## Interview question Dec 2023 Agoda: you have two strings and have to find if they are same and you are allowed to make one edit
 ## i.e. delete 1 char, insert 1 char or repalce 1 char. Return True if two strings are same else return False.
 
 def check_string(string1, string2) -> bool:
